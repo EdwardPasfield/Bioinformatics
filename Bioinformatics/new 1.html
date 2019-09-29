@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+     <script type="text/javascript">
+$(function () {
+    $('#button').on('click', function () {
+        var text = $('#text');
+        text.val(text.val() + ' after clicking');    
+    });
+});
+
+</script>
+
+</head>
+
+<body>
+    <form>
+	
+<input type="text" value="This is some text" id="text" style="width: 150px;" />
+<br />
+<input type="button" value="Click Me" id="button" />
+    </form>
+</body>
+
+</html>
